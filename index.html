@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+    <head>
+        <title>KK Beauty</title>
+        <meta name="viewport" content="width=device-width">
+        <meta name="keyword">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" media="screen and (min-width: 800px)" href="style.css" />
+        <link rel="stylesheet" media="screen and (max-width: 799px)" href="small-style.css" />
+    </head>
+    <body>
+        <div id="webpage-frame">
+            <div id="header">
+                <a  href="https://www.facebook.com/KKBeautywithKatrina/" target="_blank">
+                    <img class="social" src="Branding/facebook-icon-pink.jpg">
+                </a>
+                <a href="https://www.instagram.com/kk.b.e.a.u.t.y/?igshid=1s5in4rp9uufw" target="_blank">
+                    <img class="social" src="Branding/instagram-pink.png">
+                </a>
+            </div>
+            <div id="nav-bar">
+                <img id="logo" src="Branding/transparentFull Logo@4x.png">
+                <nav id="nav-element">
+                    <a href="index.html">Home</a>
+                    <a href="nails.html">Hands & Feet</a>
+                    <a href="lashes.html">Lashes</a>
+                    <a href="waxing.html">Hair Removal</a>
+                    <a href="gallery.html">Gallery</a>
+                </nav>
+            </div>
+            <div id="splash-marketing">
+                <div id="splash-text" style="display: table;">
+                    <div id="splash-text-large" style="vertical-align: middle;">Beauty<br>Spa</div>
+                    <div id="splash-text-small" style="vertical-align: middle;">Beauty Spa</div>
+                </div>
+                <img id="splash-img" src="Branding/lash-stock.jpg">
+            </div>
+            <div class="content" id="services">
+                <p class="quote">Come and unwind in a relaxing atmosphere</p>
+                <div class="service-image">
+                        <a href="nails.html"><img src="Branding/nails icon.png" alt="Nails"></a>
+                        <p>Hands & Feet</p>
+                    </div>
+                    <div class="service-image">
+                        <a href="lashes.html"><img src="Branding/lash icon.png" alt="Lashes"></a>
+                        <p>Lashes</p>
+                    </div>
+                    <div class="service-image">
+                        <a href="waxing.html"><img src="Branding/wax icon.png" alt="Waxing"></a>
+                        <p>Hair Removal</p>
+                    </div>
+                <p class="briefing-text">
+                    We have a wide variety of exceptional services to help you invigorate, restore and enhance your health and beauty.
+                    <br>
+                    <br>
+                    Here at KK Beauty we offer high quality, personalized services, where you can pamper yourself in an oasis of serenity and tranquility.
+                    <br>
+                    <br>
+                    KK Beauty has a convenient location in the heart Keswick. Services are provided by a licensed, experienced and knowledgeable aesthetician.
+                    <br>
+                    <br>
+                    Warmer weather means being outdoors and enjoying the sunshine. Make sure you are summer ready with our summer services, so you don’t miss a beat.
+                </p>
+            </div>
+            <div class="content" id="info">
+                <p>Photos from KK Beauty</p>
+                <img class="mySlides" src="Branding/slider1.jpg">
+                <img class="mySlides" src="Branding/slider2.jpg">
+                <img class="mySlides" src="Branding/slider3.jpg">
+                <img class="mySlides" src="Branding/slider4.jpg">
+            </div>
+            <div id="footer">
+                <div id="footer-container">
+                    <p>Copyright © KK Beauty All rights reserved.</p>
+                    <a href="https://goo.gl/maps/afHCRKU99gPTNk8t8" target="_blank">54 Biscayne Blvd, Keswick</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="widget.js"></script>
+        <script>var widget = new SimplybookWidget({"widget_type":"contact-button","url":"https:\/\/kkbeauty.simplybook.me","theme":"simple_beauty_theme","theme_settings":{"sb_base_color":"#ed9ac4","header_color":"#ffffff","timeline_show_end_time":"0","timeline_modern_display":"as_slots","body_bg_color":"#ffffff","dark_font_color":"#474747","light_font_color":"#ffffff","sb_company_label_color":"#333333","hide_img_mode":"1","show_sidebar":"1","sb_busy":"#dad2ce","sb_available":"#d3e0f1"},"timeline":"flexible","datepicker":"top_calendar","is_rtl":false,"app_config":{"predefined":[]},"button_title":"Contact Us","button_background_color":"#ed9ac4","button_text_color":"#ffffff","button_position":"right","button_position_offset":"55%"});</script>
+        <script>
+                var slideIndex = 0;
+                carousel();
+    
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none"; 
+                    }
+                    slideIndex++;
+                    if (slideIndex > x.length) {slideIndex = 1} 
+                        x[slideIndex-1].style.display = "block"; 
+                    setTimeout(carousel, 5000); // Change image every 2 seconds
+                }
+            </script>
+    </body>
+</html>

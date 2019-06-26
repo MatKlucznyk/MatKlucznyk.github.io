@@ -1,0 +1,268 @@
+@import url("lato.css");
+@import url("parisienne.css");
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+}
+
+nav a {
+    padding: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #EEE8E8;
+}
+
+ul {
+    columns: 3;
+    -webkit-col: 3;
+    -moz-columns: 3;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+li {
+    text-align: left;
+    margin-right: 25px;
+}
+
+#webpage-frame {
+    position: absolute;
+    padding: none;
+    margin: auto;
+    width: 1080px;
+    top: -5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#header {
+    position: relative;
+    padding-top: none;
+    margin-top: 0;
+    background-color: #EEE8E8;
+    height: 50px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#home {
+    display: none;
+}
+
+#header img {
+    position: relative;
+    display: inline-block;
+    top: 25%;
+    height: 25px;
+    width: 25px;
+    left: 10px;
+    padding-right: 15px;
+}
+
+#footer{
+    position: relative;
+    padding-top: none;
+    margin-top: 0;
+    background-color: #EEE8E8;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+#footer-container {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+#footer p{
+    margin: 0;
+    font-size: 12px;
+}
+
+#footer a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+
+}
+
+#footer a:hover {
+    color: #ffffff;
+}
+
+#nav-bar {
+    position: relative;
+    background-color: #F3CED5;
+    height: 100px;
+}
+
+#logo {
+    position: relative;
+    display: inline-block;
+    top: 15px;
+    left: 10px;
+    height: 70px;
+    width: auto;
+}
+#nav-element {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    left: 25%;
+    width: 50%;
+    top: 50%;
+}
+
+#splash-marketing {
+    position: relative;
+    height: 317px;
+    width: auto;
+}
+
+#splash-text {
+    position: absolute;
+    width: calc(100% - 612px);
+    height: 317px;
+    left: 0%;
+    background-color: #EEE8E8;
+    color: #ffffff;
+    text-align: center;
+    font-size: 80px;
+    vertical-align: middle;
+}
+
+#splash-text-small {
+    display: none;
+}
+
+#splash-text-large {
+    display: table-cell;
+}
+
+#splash-img {
+    position: absolute;
+    right: 0%;
+    display: inline-block;
+}
+
+#services {
+    background-color: #ffffff;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#gallery {
+    background-color: #ffffff;
+    vertical-align: middle;
+    text-align: center;
+    height: auto;
+}
+
+#gallery-images {
+    padding: 10px;
+}
+
+#gallery img {
+    padding: 10px;
+    height: 200px;
+    width: auto;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.57);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.57);
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.57)
+}
+
+#waxing-list {
+    /*max-width: 350px;*/
+    display: inline-block;
+}
+
+#lashes-list {
+    /*max-width: 350px;*/
+    display: inline-block;
+}
+
+.briefing-text {
+    position: relative;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: block;
+    font-weight: 50;
+    width: 80%;
+    left: 10%;
+}
+
+.lashes-briefing-text {
+    padding-top: 0;
+}
+.service-image {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+    width: 100px;
+}
+
+.service-image:hover {
+    transform: translate(0, -10px);
+}
+
+.service-image img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+.seervice-image p {
+    padding-top: 0px;
+}
+
+#info {
+    background-color: #F3CED5;
+    height: 375px;
+    text-align: center;
+}
+
+#info p{
+    position: relative;
+    top: 10px;
+    margin: 0;
+}
+
+.content {
+    position: relative;
+    min-height: 275px;
+    width: 100%;
+}
+
+.mySlides {
+    position: relative;
+    top: 5%;
+    height: 320px;
+    width: auto;
+    vertical-align: middle;
+    transform-origin: center;
+    left: 27.5%;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.57);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.57);
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.57)
+}
+
+.quote {
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Parisienne', cursive;
+}
